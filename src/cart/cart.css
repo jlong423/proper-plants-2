@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .cart-item:not(:last-child) {
   border-bottom: 1px solid #eee;
 }
@@ -17,4 +23,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+button {
+  padding: 0.25rem;
+}
+
+section {
+  display: block;
 }
